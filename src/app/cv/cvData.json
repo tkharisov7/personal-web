@@ -1,0 +1,61 @@
+{
+		"education": [
+			{
+				"institution": "Moscow Institute of Physics and Technology",
+				"degree": "Bachelor of Science in Computer Science",
+				"startDate": "September 2018",
+				"endDate": "June 2022",
+				"details": 
+						"GPA: 9.11/10.0; Courses: Frontend Development, Data Structures and Algorithms; Thesis: Developed a web application for data visualization using React."
+			},
+			{
+				"institution": "Some Other University",
+				"degree": "Master of Science in Artificial Intelligence",
+				"startDate": "September 2022",
+				"endDate": "June 2024",
+				"details": 
+						"Courses: Machine Learning, Natural Language Processing; Thesis: Researching deep learning models for image recognition."
+			}
+		],
+		"experience": [
+			{
+				"company": "Tech Company",
+				"role": "Frontend Developer",
+				"startDate": "July 2022",
+				"endDate": "Present",
+				"details": "Worked on developing and maintaining web applications using React and Node.js."
+			},
+			{
+				"company": "Another Tech Company",
+				"role": "Intern",
+				"startDate": "June 2021",
+				"endDate": "August 2021",
+				"details": "Assisted in developing internal tools and improving the UI/UX of the company website."
+			}
+		],
+		"projects": [
+			{
+				"title": "Personal Website",
+				"description": "Created a personal website using Next.js, Tailwind CSS, and React. Hosted on Vercel.",
+				"link": "https://example.com"
+			},
+			{
+				"title": "Open Source Project",
+				"description": "Contributed to an open-source project focused on improving web accessibility.",
+				"link": "https://github.com/username/repository"
+			}
+		],
+		"awards": [
+			{
+				"title": "Best Student Developer",
+				"year": 2021,
+				"description": "Awarded by Some Organization for outstanding contributions to student projects."
+			},
+			{
+				"title": "Hackathon Winner",
+				"year": 2022,
+				"description": "Won first place at a regional hackathon with a team project on machine learning."
+			}
+		]
+	}
+	

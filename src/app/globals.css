@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--foreground-rgb: 0, 0, 0;
+	--background-start-rgb: 214, 219, 220;
+	--background-end-rgb: 255, 255, 255;
+	--icon-color-invert: 0%;
+	--navbar-bg-color-light: 214, 219, 220;
+	--navbar-bg-color-dark: 0, 0, 0;
+}
+
+.dark {
+	--foreground-rgb: 255, 255, 255;
+	--background-start-rgb: 0, 0, 0;
+	--background-end-rgb: 0, 0, 0;
+	--icon-color-invert: 100%;
+}
+
+body {
+	color: rgb(var(--foreground-rgb));
+	background: linear-gradient(
+		to bottom,
+		transparent,
+		rgb(var(--background-end-rgb))
+	)
+		rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+.nav-link {
+	transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+	transform: scale(1.1);
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+main {
+	margin-top: 2rem;
+	padding: 1rem;
+}
