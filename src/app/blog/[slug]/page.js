@@ -17,7 +17,6 @@ export default function BlogPost() {
 				const res = await fetch(`/api/getPost?filename=${slug}`);
 				if (res.ok) {
 					const data = await res.json();
-					// console.log("DATA", data);
 					setPost(data.content);
 				} else {
 					console.error('Failed to fetch post:', res.statusText);
@@ -25,7 +24,6 @@ export default function BlogPost() {
 			}
 			fetchContent();
 		}
-		// console.log("filename", slug);
 	}, [slug]);
 
 	return (
